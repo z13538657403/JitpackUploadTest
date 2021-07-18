@@ -1,9 +1,9 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'com.github.dcendents.android-maven'
 }
 
+apply plugin: 'com.github.dcendents.android-maven' // GitHub Maven 插件
 //组名 com.github是固定的,后面的sweetying520是我Github的用户名,替换成你自己的就可以了
 group='com.github.z13538657403'
 
